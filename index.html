@@ -15,9 +15,6 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-light font-weight-bold">
-            <h1>Baby Yoda</h1>
-        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +27,7 @@
                     <a class="nav-link text-light" href="#Issues">Issues</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Help Now</a>
+                    <a class="nav-link text-light" href="https://vrsws.sos.ky.gov/ovrweb/">Register to Vote Now</a>
                 </li>
             </ul>
         </div>
@@ -47,7 +44,7 @@
                 <h4 class="py-5">
                     He needs your vote, <br> to become fayette county's constable!
                 </h4>
-                <button class="btn btn-dark btn-lg pl-4 pr-4 py-5" href="">Help Now!</button>
+                <button class="btn btn-dark btn-lg pl-4 pr-4 py-5" type="submit" onclick="window.location.href='https://vrsws.sos.ky.gov/ovrweb/'">Help Now!</button>
             </div>
         </div>
     </div>
@@ -64,39 +61,6 @@
             powers including: telekinetics, healing, and force barriers. He is a kind and trustworthy person which alone
             would make him a great canidate for constable, but he also has force powers which would bring any wrong
             doers to justice. </p>
-    </div>
-
-    <div class="container py-5" id = "Issues">
-        <h1 class = "text-center py-2">Issues he cares about!</h1>
-        <hr class = "py-3">
-        <div class="row"> 
-            <div class="card col-lg-4 align-items-stretch pr-2" style="width: 18rem;">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-                <div class="card col-lg-4 align-items-stretch px-2" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card col-lg-4 align-items-stretch px-2" style="width: 18rem;">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-            </div>
-        </div>
-
     </div>
     <div class="container bg-dark">
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -122,6 +86,42 @@
         </div>
     </div>
 
+    <div class="container py-5 align-content-md-center" id = "Issues">
+        <h1 class = "text-center py-2">Issues he cares about!</h1>
+        <hr class = "py-3">
+        <div class = "card-deck justify-content-center">
+        <div class="row justify-content-center"> 
+            <div class="card col-md-12 col-lg-4align-items-stretch" style="width: 18rem;">
+                <div class="card-body d-flex flex-column ">
+                    <h5 class="card-title text-center">Justice</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p> 
+                </div>
+            </div>
+                <div class="card col-md-12 col-lg-4 align-items-stretch" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Honor</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-md-12 col-lg-4 align-items-stretch" style="width: 18rem;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-center">Integrity</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class = "container text-center py-5">
+        <h1 class = "py-2">Register to Vote Now!</h1>
+        <hr class = "py-2">
+        <button class = "btn btn-dark btn-block py-5" type="submit" onclick="window.location.href='https://vrsws.sos.ky.gov/ovrweb/'">Vote!</button>
+    </div>
     <!-- Optional JavaScript -->
     <script></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -134,6 +134,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-</body>
-
-</html>
+    </body>
+    
+    </html>
