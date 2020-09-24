@@ -18,4 +18,9 @@ img {
 .yoda {
     width: 100%;
     margin-top: -125px;
+    margin-bottom: -125px;
+}
+
+.btn-block{
+    width: 50%;
 }
