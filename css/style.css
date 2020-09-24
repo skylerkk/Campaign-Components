@@ -23,3 +23,5 @@ img {
 .btn-block{
     width: 50%;
 }
+
+html, body { overflow-x: hidden; }
