@@ -25,3 +25,8 @@ img {
 }
 
 html, body { overflow-x: hidden; }
+
+ul {
+    list-style: none;
+    margin-left: -48px;
+}
